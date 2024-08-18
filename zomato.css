@@ -1,0 +1,215 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Okra, Helvetica, sans-serif;
+}
+.hero {
+    font-family: Okra, Helvetica, sans-serif;
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+        url('./Images/zomato-bg.png');
+    background-position: center;
+    background-size: cover;
+    height: 57vh;
+}
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px 50px 0px;
+}
+#advertise {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 20px;
+}
+#loginBtn {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    border: 1px solid rgb(255, 255, 255);
+    padding: 6px 15px;
+    border-radius: 5px;
+    margin: 0px 15px;
+}
+#accountbtn {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    border: none;
+    background-color: rgb(39, 129, 231);
+    border-radius: 5px;
+    padding: 7px 15px;
+}
+.intro-container {
+    display: flex;
+    justify-content: center;
+}
+.intro {
+    color: white;
+}
+.title {
+    margin: 25px 0px;
+}
+.title h1 {
+    font-size: 36px;
+    font-weight: 500;
+}
+.desc {
+    margin: 16px 0px;
+}
+.desc p {
+    font-size: 16px;
+}
+#intro-btn1 {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    border: none;
+    background-color: rgb(39, 129, 231);
+    border-radius: 5px;
+    padding: 14px 85px;
+    font-size: 16px;
+    margin: 10px 16px 10px 0px;
+}
+#intro-btn2 {
+    text-decoration: none;
+    color: black;
+    border: none;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    padding: 14px 35px;
+    font-size: 16px;
+}
+.help {
+    margin-top: 10px;
+}
+.help p {
+    font-size: 15px;
+}
+.online-orders-container {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(241, 241, 241);
+    padding-bottom: 30px;
+}
+.online-orders {
+    background-color: white;
+    padding: 40px;
+    transform: translateY(-20px);
+    border-radius: 8px;
+    width: 700px;
+}
+.order-title {
+    text-align: center;
+}
+.lists {
+    display: flex;
+    margin-top: 15px;
+}
+.lists ul {
+    list-style-type: '✅';
+    margin: 10px;
+}
+
+.list1,
+.list2 {
+    margin-left: 80px;
+}
+
+.list1 li,
+.list2 li {
+    margin: 12px;
+}
+
+.partnerIntro {
+    text-align: center;
+    padding: 40px 0px;
+}
+
+.partnerIntro h1 {
+    margin: 24px 0px;
+    color: #363636;
+    font-size: 36px;
+}
+
+.partnerIntro p {
+    color: #696969;
+    font-size: 20px;
+    padding: 0px 330px;
+    line-height: 32px;
+}
+.partnerInfo {
+    display: flex;
+    justify-content: center;
+}
+.partnerInfoDiv {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 20px;
+    box-shadow: 2px 5px 4px rgba(28, 28, 28, 0.1);
+    border: 1px solid rgb(244, 244, 244);
+    border-radius: 8px;
+    padding: 20px 30px;
+    width: 230px;
+    height: 60px;
+    line-height: 32px;
+}
+
+.p1 {
+    color: #256fef;
+    font-size: 24px;
+    padding-left: 12px;
+}
+
+.p2 {
+    color: #4f4f4f;
+    font-size: 18px;
+    padding-left: 12px;
+}
+
+.instructions {
+    background-image: url('./images/howitworks-bg.png');
+    background-position: center;
+    background-size: cover;
+    height: 40vh;
+    background-color: #e4e4e4;
+}
+
+.instructionsTitle {
+    text-align: center;
+    margin: 24px 0px;
+    /* font-size: 36px; */
+    color: #363636;
+}
+
+.steps {
+    display: flex;
+    justify-content: center;
+}
+
+.stepDiv {
+    background-color: #fff;
+    text-align: center;
+    margin: 0px 10px;
+    width: 275px;
+    height: 337px;
+    background: rgb(255, 255, 255);
+    border: 1px solid rgb(244, 244, 244);
+    box-sizing: border-box;
+    box-shadow: rgba(228, 233, 235, 0.5) 0px 10px 70px;
+    border-radius: 8px;
+    line-height: 24px;
+}
+
+.stepDiv img {
+    padding: 40px;
+    margin: 20px 0px;
+    border-radius: 50%;
+    background-color: rgb(255, 249, 241);
+}
+
+.sp1 {
+    color: #4f4f4f;
+}
+
+.sp2 {
+    color: #4f4f56;
+}
